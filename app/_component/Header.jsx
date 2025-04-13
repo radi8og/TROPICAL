@@ -35,7 +35,9 @@ function Header() {
   return (
     <div className="p-5 shadow-md h-[80px] justify-between items-center flex">
       <div className="flex items-center  gap-8">
+        <Link href="/">
         <Image src={"/logo.png"} alt="logo" width={170} height={50} />
+        </Link>
         <Link
           href={"/category/Fruits"}
           className="md:flex hidden gap-2 items-center cursor-pointer border rounded-full p-2 px-10 bg-slate-200"
