@@ -1,10 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaSquareYoutube } from "react-icons/fa6";  
-import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 
 function Footer() {
@@ -34,21 +29,21 @@ function Footer() {
       <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">Blog</li>
       </ul>
       <ul className="flex mt-12 gap-10 pl-150 align-middle space-y-12">
-        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer"><a href="https://react-icons.github.io/react-icons/search/#q=insta">
-        <FaLinkedin size={25}/>
-            </a></li>
-        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer"><a href="https://www.instagram.com/">
-                <FaInstagramSquare size={25}/>
-              </a></li>
-        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer"><a href="https://github.com/">
-                <FaGithubSquare size={25}/>
-              </a></li>
-        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer"><a href="https://www.youtube.com/">
-                <FaSquareYoutube size={25}/>
-              </a></li>
-        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer"><a href="https://discord.gg/sAeFEgKTXv">
-                <FaDiscord size={25}/>
-              </a></li>
+        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">
+        
+            </li>
+        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">
+                
+              </li>
+        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">
+                
+              </li>
+        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">
+                
+              </li>
+        <li className=" hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 cursor-pointer">
+                
+              </li>
       </ul>
       </div>
     
